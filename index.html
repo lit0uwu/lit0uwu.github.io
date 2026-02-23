@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>litouwu.net | Я Лито и Я Легенда</title>
+    <style>
+        /* Сбрасываем стандартные отступы */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Дарк мод */
+        body {
+            background-color: #0a0a0a; /* Почти черный, как на твоей шапке */
+            color: #ffffff;
+            font-family: 'Courier New', Courier, serif; /* Шрифт с засечками, похожий на шапку ютуба */
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh; /* Занимает весь экран */
+            padding: 20px;
+        }
+
+        /* Заголовок-логотип */
+        h1 {
+            font-size: 3.5rem;
+            margin-bottom: 5px;
+            text-align: center;
+            letter-spacing: 2px;
+        }
+
+        /* подзаголовок */
+        p.subtitle {
+            font-size: 1rem;
+            color: #888888; /* Серый цвет, чтобы не отвлекало */
+            margin-bottom: 40px;
+            font-style: italic;
+        }
+
+        /* Контейнер для кнопок */
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px; /* Расстояние между кнопками */
+            width: 100%;
+            max-width: 400px; /* Кнопки не будут растягиваться на весь широкий экран */
+        }
+
+        /* Дизайн кнопок */
+        .link-btn {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: transparent;
+            border: 2px solid #333333;
+            padding: 15px 20px;
+            text-align: center;
+            font-size: 1.2rem;
+            font-family: Arial, sans-serif; /* Более читаемый шрифт для кнопок */
+            font-weight: bold;
+            transition: all 0.3s ease; /* Плавная анимация */
+            border-radius: 8px; /* Слегка закругленные углы */
+        }
+
+        /* Эффект при наведении (Ховер) */
+        .link-btn:hover {
+            border-color: #ff0000; /* красный акцент */
+            background-color: rgba(255, 0, 0, 0.1);
+            transform: translateY(-3px); /* Кнопка слегка приподнимается */
+            box-shadow: 0 5px 15px rgba(255, 0, 0, 0.2); /* Красное свечение */
+        }
+
+        /* Специфичные цвета для наведения на разные кнопки */
+        .btn-tg:hover { border-color: #0088cc; background-color: rgba(0, 136, 204, 0.1); box-shadow: 0 5px 15px rgba(0, 136, 204, 0.2); }
+        .btn-twitch:hover { border-color: #9146FF; background-color: rgba(145, 70, 255, 0.1); box-shadow: 0 5px 15px rgba(145, 70, 255, 0.2); }
+        
+        /* Подвал */
+        footer {
+            margin-top: 50px;
+            font-size: 0.8rem;
+            color: #555555;
+            font-family: Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- бренд -->
+    <h1>litouwu.net</h1>
+    <p class="subtitle">не вздумай заходить, бе-бе-бе</p>
+
+    <!-- Твои ссылки -->
+    <div class="links-container">
+
+        <!-- ссылки -->
+        <a href="https://t.me/litouwu" class="link-btn btn-tg" target="_blank">
+            💬 Мой Telegram
+        </a>
+
+        <a href="https://youtube.com/@litouwu" class="link-btn" target="_blank">
+            🎥 YouTube 
+        </a>
+
+        <a href="https://twitch.tv/l1touwu" class="link-btn btn-twitch" target="_blank">
+            🎮 Стримы на Twitch
+        </a>
+        
+    </div>
+
+    <!-- Футер -->
+    <footer>
+        <p>Я Лито и Я Легенда, Да Будет Так!</p>
+    </footer>
+
+</body>
+</html>
